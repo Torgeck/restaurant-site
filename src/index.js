@@ -37,6 +37,7 @@ dealsTitle.textContent = "BOGO on cheesy Borgir's";
 dealsDesc.textContent = "Buy one get one free on Borgir's with cheese on them";
 
 // function that deletes all child nodes from content div
+// google a better way to do this
 export function removeChilds() {
   while (content.hasChildNodes()) {
     content.removeChild(content.lastChild);
