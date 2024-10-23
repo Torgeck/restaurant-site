@@ -1,5 +1,6 @@
 import "./styles.css";
 import borgirImg from "./borgir.jpg";
+import { menuClick } from "./menu";
 import { aboutClick } from "./about";
 import { initPageLoad, homeClick } from "./home";
 
@@ -22,3 +23,4 @@ export default function removeChilds() {
 // Sets events listeners of buttons
 aboutBtn.addEventListener("click", aboutClick);
 homeBtn.addEventListener("click", homeClick);
+menuBtn.addEventListener("click", menuClick);
